@@ -55,10 +55,10 @@ const Navbar = () => {
               <div className="relative">
                 <div className="text-3xl md:text-4xl font-bold gradient-text cursor-pointer hover:scale-110 transition-all duration-300 relative z-10" 
                      onClick={() => scrollToSection("home")}>
-                  VB
+                  KM
                 </div>
                 <div className="absolute inset-0 text-3xl md:text-4xl font-bold gradient-text blur-sm opacity-50 -z-10">
-                  VB
+                  KM
                 </div>
               </div>
               <div className="hidden sm:block ml-4 text-sm text-muted-foreground font-medium">

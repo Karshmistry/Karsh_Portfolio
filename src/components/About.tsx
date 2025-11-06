@@ -17,6 +17,7 @@ const About = () => {
       title: "Clean Architecture",
       description: "Strong focus on scalability, clean code, and responsive design"
     }
+    
   ];
 
   return (
@@ -27,7 +28,7 @@ const About = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-muted-foreground text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed">
-           I’m a Full-Stack Developer specializing in the MERN stack, passionate about creating scalable and high-performance web applications. I focus on writing clean, maintainable code, designing responsive and intuitive user interfaces, and implementing real-time features to deliver seamless user experiences. By combining robust backend architecture with thoughtful front-end design, I transform ideas into production-ready solutions that solve real-world problems. <br/>
+           I’m a Full-Stack Developer and Data Analyst, passionate about building scalable, high-performance web applications that solve real-world problems. I write clean, maintainable code, design responsive and intuitive interfaces, and integrate data-driven insights to optimize performance and enhance user experiences. By bridging robust backend architecture with thoughtful front-end design, I transform complex ideas into production-ready solutions that deliver measurable impact. <br/>
            <br />
           Let’s collaborate to build something amazing together!
           </p>

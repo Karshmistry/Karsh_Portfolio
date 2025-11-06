@@ -13,6 +13,11 @@ import layout3Image from "@/assets/projects/layout-3.svg";
 import layout4Image from "@/assets/projects/layout-4.svg";
 import pinterestCardsImage from "@/assets/projects/pinterest-cards.svg";
 import hospitalAppointmentImage from "@/assets/projects/hospital-appointment.svg";
+import crimAi from "@/assets/projects/crim-ai.svg"; // <-- fixed
+import goalRush from "@/assets/projects/GoalRush.svg";
+import HealthAi from "@/assets/projects/HealthAI.svg";
+import Netflix from "@/assets/projects/Netflix.svg";
+
 
 interface Project {
   title: string;
@@ -31,100 +36,46 @@ const Projects = () => {
   
   const projects: Project[] = [
     {
-      title: "Home Utility Management System",
-      description: "MERN app for booking plumbing, carpentry, and electrical services with real-time updates, admin dashboard, and AI recommendations.",
-      tech: ["React", "Node.js", "MongoDB", "Express", "Nodemailer"],
+      title: "GoalRush (The Football Website)",
+      description: "-	Designed and developed a full-stack football website with live score updates, player profiles, and match details.Integrated manual input features for teams, scores, fouls, and match fixtures for real-time updates.",
+      tech: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB", "EJS"],
       gradient: "from-red-500/20 to-orange-500/20",
       category: "Full-Stack",
-      coverImage: homeUtilityImage,
-      githubUrl: "https://github.com/Vatsal1805/HomeEase",
+      coverImage: goalRush,
+      githubUrl: "https://github.com/Karshmistry/Football-Website",
       liveUrl: "#"
     },
+   
     {
-      title: "Zomato Reel Clone",
-      description: "A MERN full-stack web app with TikTok-style food video feed, secure user authentication, and responsive design.(Best viewed in mobile format).",
-      tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
-      gradient: "from-yellow-500/20 to-red-500/20",
-      category: "Full-Stack",
-      coverImage: zomatoReelImage,
-      githubUrl: "https://github.com/Vatsal1805/Zomato-Reel",
-      liveUrl: "https://zomato-reel-sepia.vercel.app/"
-    },
-    {
-  title: "Hospital Appointment Booking System",
-  description: "A web application developed using Node.js and Express.js for scheduling doctor appointments, featuring a user-friendly interface and efficient backend management.",
-  tech: ["Node.js", "Express.js", "MongoDB", "JavaScript"],
+  title: "CrimAI – Criminal Detection & Alert System",
+  description: "Built an AI-powered full-stack system for facial recognition, criminal record analysis, and case logging.Developed secure login/signup system and dynamic pages for criminal records, detection logs, and real-time alerts.",
+  tech: ["React.js", "Tailwind CSS", "JavaScript", "Python (Flask/FastAPI)", "OpenCV", "TensorFlow"],
   gradient: "from-teal-500/20 to-blue-500/20",
-  category: "Backend",
-  coverImage: hospitalAppointmentImage,
-  githubUrl: "https://github.com/Vatsal1805/Hospital_appointment",
+  category: "Full-Stack",
+  coverImage: crimAi, 
+  githubUrl: "https://github.com/Karshmistry/CrimAII",
   liveUrl: "#"
 },
     {
-      title: "Obys Agency Portfolio Clone",
-      description: "A modern, interactive portfolio website inspired by the award-winning Obys Agency design. Features advanced web animations, smooth scrolling, and interactive elements using cutting-edge web technologies.",
-      tech: ["HTML", "CSS", "JavaScript", "GSAP", "Locomotive Scroll"],
+      title: "HealthAI – Symptom-Based Disease Prediction & Doctor Consultation System (In Progress)",
+      description: "Built a full-stack medical web app for AI-based disease prediction and doctor consultation.Developed secure user and doctor dashboards with appointment booking and digital prescriptions.",
+      tech: ["React.js", "Tailwind CSS", "Python (Flask)", "MongoDB", "Scikit-learn"],
       gradient: "from-blue-500/20 to-indigo-500/20",
-      category: "Frontend",
-      coverImage: obysAgencyImage,
-      githubUrl: "https://github.com/Vatsal1805/Js_Final_Project",
-      liveUrl: "https://js-final-project-mocha.vercel.app/"
+      category: "Backend",
+       coverImage: HealthAi,
+      githubUrl: "https://github.com/Karshmistry/healthai-ml-api",
+      liveUrl: "#"
     },
-    {
-  title: "Layout 1",
-  description: "A static website showcasing modern web design principles with interactive elements.",
-  tech: ["HTML", "CSS", "JavaScript"],
-  gradient: "from-blue-500/20 to-indigo-500/20",
-  category: "Frontend",
-  coverImage: layout1Image,
-  githubUrl: "https://github.com/Vatsal1805/project1",
-  liveUrl: "https://project1-efc9.vercel.app/"
-}
-,
-    {
-  title: "Layout 2",
-  description: "A clean and responsive landing page designed using HTML and CSS, suitable for portfolios or small business showcases.",
-  tech: ["HTML", "CSS"],
-  gradient: "from-purple-500/20 to-pink-500/20",
-  category: "Frontend",
-  coverImage: layout2Image,
-  githubUrl: "https://github.com/Vatsal1805/layout_2",
-  liveUrl: "https://vatsal1805.github.io/layout_2/"
-}
-
-,
-   {
-  title: "Layout 3",
-  description: "A simple and responsive landing page created with HTML and CSS, designed for portfolios or small business showcases.",
-  tech: ["HTML", "CSS"],
-  gradient: "from-teal-500/20 to-cyan-500/20",
-  category: "Frontend",
-  coverImage: layout3Image,
-  githubUrl: "https://github.com/Vatsal1805/layout_3",
-  liveUrl: "https://vatsal1805.github.io/layout_3/"
-},
-{
-  title: "Layout 4",
-  description: "A responsive and visually clean landing page built with HTML and CSS, ideal for portfolios or small business showcases.",
-  tech: ["HTML", "CSS"],
-  gradient: "from-orange-500/20 to-yellow-500/20",
-  category: "Frontend",
-  coverImage: layout4Image,
-  githubUrl: "https://vatsal1805.github.io/layout_4/",
-  liveUrl: "#"
-},
-{
-  title: "Pinterest Card Layouts",
-  description: "A collection of Pinterest-inspired card designs created using HTML and CSS, showcasing responsive layouts and modern design trends.",
-  tech: ["HTML", "CSS"],
-  gradient: "from-pink-500/20 to-yellow-500/20",
-  category: "Frontend",
-  coverImage: pinterestCardsImage,
-  githubUrl: "https://github.com/Vatsal1805/Pinterest-Cards",
-  liveUrl: "https://vatsal1805.github.io/Pinterest-Cards/"
-},
-
-
+ {
+      title: "Netflix Dashboard",
+      description: " This app lets you explore Netflix content by genre, country, and release year, with live visualizations and filters — all in one clean UI..",
+      tech: ["Streamlit", "Plotly", "Pandas", "Python"],
+      gradient: "from-yellow-500/20 to-red-500/20",
+      category: "Dashboard",
+      coverImage: Netflix,
+      githubUrl: "https://github.com/Karshmistry/Netflix-Dashboard-Streamlit-app",
+      liveUrl: "https://netflix-dashboard-app-app-ksca57pdslsrdliktvt4m5.streamlit.app/"
+    },
 
   ];
 

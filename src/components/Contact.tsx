@@ -45,9 +45,9 @@ const Contact = () => {
         // Fallback: Open email client with pre-filled message
         const subject = encodeURIComponent('Portfolio Contact from ' + formData.name);
         const body = encodeURIComponent(
-          `Hello Vatsal,\n\nName: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}\n\n---\nSent from your portfolio contact form`
+          `Hello Karsh,\n\nName: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}\n\n---\nSent from your portfolio contact form`
         );
-        window.open(`mailto:vatsalbhavsar2011@gmail.com?subject=${subject}&body=${body}`);
+        window.open(`mailto:karshmistry55@gmail.com?subject=${subject}&body=${body}`);
         
         // Track email client fallback usage
         track('Contact Form Submitted', { 
@@ -70,8 +70,8 @@ const Contact = () => {
         from_name: formData.name,
         from_email: formData.email,
         message: formData.message,
-        to_name: 'Vatsal Bhavsar',
-        to_email: 'vatsalbhavsar2011@gmail.com'
+        to_name: 'Karsh Mistry',
+        to_email: 'karshmistry55@gmail.com'
       };
 
       await emailjs.send(serviceId, templateId, templateParams, publicKey);
@@ -104,7 +104,7 @@ const Contact = () => {
         description: "EmailJS failed. Opening your email client as a backup.",
       });
       
-      window.open(`mailto:vatsalbhavsar2011@gmail.com?subject=${subject}&body=${body}`);
+      window.open(`mailto:karshmistry55@gmail.com?subject=${subject}&body=${body}`);
       setFormData({ name: '', email: '', message: '' });
     } finally {
       setIsLoading(false);
@@ -131,10 +131,10 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold mb-2 text-xl">Email</h3>
                   <a 
-                    href="mailto:vatsalbhavsar2011@gmail.com" 
+                    href="mailto:karshmistry55@gmail.com" 
                     className="text-muted-foreground hover:text-primary transition-colors text-lg"
                   >
-                    vatsalbhavsar2011@gmail.com
+                    karshmistry55@gmail.com
                   </a>
                 </div>
               </div>
@@ -155,10 +155,10 @@ const Contact = () => {
                   onClick={() => {
                     track('Social Link Clicked', { 
                       platform: 'GitHub',
-                      url: 'https://github.com/Vatsal1805',
+                      url: 'https://github.com/Karshmistry',
                       section: 'Contact'
                     });
-                    window.open('https://github.com/Vatsal1805', '_blank');
+                    window.open('https://github.com/Karshmistry', '_blank');
                   }}
                 >
                   <Github className="w-5 h-5 mr-2" />
@@ -171,10 +171,10 @@ const Contact = () => {
                   onClick={() => {
                     track('Social Link Clicked', { 
                       platform: 'LinkedIn',
-                      url: 'https://www.linkedin.com/in/vatsal-bhavsar-3b30092a7/',
+                      url: 'https://www.linkedin.com/in/karsh-mistry-756a0a2ba/',
                       section: 'Contact'
                     });
-                    window.open('https://www.linkedin.com/in/vatsal-bhavsar-3b30092a7/', '_blank');
+                    window.open('https://www.linkedin.com/in/karsh-mistry-756a0a2ba/', '_blank');
                   }}
                 >
                   <Linkedin className="w-5 h-5 mr-2" />

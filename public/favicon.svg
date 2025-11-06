@@ -1,4 +1,8 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="32" height="32" rx="6" fill="#FF4444"/>
-  <text x="16" y="22" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">VB</text>
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" fill="#FF4444" rx="6" height="32" width="32"/>
+  <text style="cursor: move;" id="svg_2" fill="white" text-anchor="middle" font-weight="bold" font-size="18" font-family="Inter, system-ui, sans-serif" y="22" x="16">KM</text>
+ </g>
 </svg>
