@@ -6,7 +6,7 @@ Built with a focus on performance, design consistency, and user experience.
 ---
 
 ## 🌐 Live Demo
-🚀 **Check it out here:** [https://my-portfolio1-lemon.vercel.app/](https://my-portfolio1-lemon.vercel.app/)
+🚀 **Check it out here:** https://karshhportfolio.vercel.app/
 
 ---
 
